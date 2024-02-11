@@ -1,0 +1,1266 @@
+[
+    {
+        "input": "i asked for a menu and the same waitress looked at my like i was insane .",
+        "output": "[['waitress', 'service general', 'negative', 'insane']]\n"
+    },
+    {
+        "input": "the owner truly caters to all your needs .",
+        "output": "[['owner', 'service general', 'positive', 'caters to all your needs']]\n"
+    },
+    {
+        "input": "i 'm a friendly person , so i wouldn 't mind had she not been so nasty and gotten so personal .",
+        "output": "[['null', 'service general', 'negative', 'nasty']]\n"
+    },
+    {
+        "input": "a great place to meet up for some food and drinks ...",
+        "output": "[['place', 'restaurant miscellaneous', 'positive', 'great']]\n"
+    },
+    {
+        "input": "loved it",
+        "output": "[['null', 'restaurant general', 'positive', 'loved']]\n"
+    },
+    {
+        "input": "the owner and staff are all japanese as well and that adds to the entire ambiance .",
+        "output": "[['ambiance', 'ambience general', 'positive', 'adds']]\n"
+    },
+    {
+        "input": "the side dishes were passable , and i did get a refill upon request .",
+        "output": "[['side dishes', 'food quality', 'neutral', 'passable'], ['side dishes', 'food style_options', 'positive', 'refill']]\n"
+    },
+    {
+        "input": "great friendly service , fast seating , fast delivery , excellent sushi .",
+        "output": "[['service', 'service general', 'positive', 'great friendly'], ['seating', 'service general', 'positive', 'fast'], ['delivery', 'service general', 'positive', 'fast'], ['sushi', 'food quality', 'positive', 'excellent']]\n"
+    },
+    {
+        "input": "i went there for lunch and it was not as good as i expected from the reviews i read .",
+        "output": "[['lunch', 'food quality', 'negative', 'not as good as i expected']]\n"
+    },
+    {
+        "input": "the stuff tilapia was horrid ... tasted like cardboard .",
+        "output": "[['stuff tilapia', 'food quality', 'negative', 'horrid']]\n"
+    },
+    {
+        "input": "i just do n't understand all the hype ...",
+        "output": "[['null', 'restaurant general', 'negative', \"do n't understand\"]]\n"
+    },
+    {
+        "input": "subtle food and service",
+        "output": "[['food', 'food quality', 'positive', 'subtle'], ['service', 'service general', 'positive', 'subtle']]\n"
+    },
+    {
+        "input": "service was wonderful ;",
+        "output": "[['service', 'service general', 'positive', 'wonderful']]\n"
+    },
+    {
+        "input": "the food here does a great service to the name ( cantonese that is ... ) .",
+        "output": "[['food', 'food quality', 'positive', 'great']]\n"
+    },
+    {
+        "input": "none was made so i hung up .",
+        "output": "[['null', 'service general', 'negative', 'none was made']]\n"
+    },
+    {
+        "input": "this place is a great bargain .",
+        "output": "[['place', 'restaurant prices', 'positive', 'great bargain']]\n"
+    },
+    {
+        "input": "i will be going back and heartily recommend it !",
+        "output": "[['null', 'restaurant general', 'positive', 'going back'], ['null', 'restaurant general', 'positive', 'heartily recommend']]\n"
+    },
+    {
+        "input": "great hot dogs .",
+        "output": "[['hot dogs', 'food quality', 'positive', 'great']]\n"
+    },
+    {
+        "input": "the food was good too .",
+        "output": "[['food', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "winnie and her staff are the best crew you can find serving you .",
+        "output": "[['staff', 'service general', 'positive', 'best'], ['winnie', 'service general', 'positive', 'best']]\n"
+    },
+    {
+        "input": "service was prompt , friendly and great .",
+        "output": "[['service', 'service general', 'positive', 'prompt'], ['service', 'service general', 'positive', 'friendly'], ['service', 'service general', 'positive', 'great']]\n"
+    },
+    {
+        "input": "the ambience was so fun , and the prices were great , on top of the fact that the food was really tasty .",
+        "output": "[['ambience', 'ambience general', 'positive', 'fun'], ['null', 'restaurant prices', 'positive', 'great'], ['food', 'food quality', 'positive', 'tasty']]\n"
+    },
+    {
+        "input": "the food is always fresh ...",
+        "output": "[['food', 'food quality', 'positive', 'fresh']]\n"
+    },
+    {
+        "input": "excellent sashimi , and the millennium roll is beyond delicious .",
+        "output": "[['sashimi', 'food quality', 'positive', 'excellent'], ['millennium roll', 'food quality', 'positive', 'delicious']]\n"
+    },
+    {
+        "input": "not a great place for family or general dining .",
+        "output": "[['place', 'restaurant miscellaneous', 'negative', 'not a great']]\n"
+    },
+    {
+        "input": "the bagels always warm , soft on the inside , crispy on the outside and enormous in size .",
+        "output": "[['bagels', 'food quality', 'positive', 'warm'], ['bagels', 'food quality', 'positive', 'soft'], ['bagels', 'food quality', 'positive', 'crispy'], ['bagels', 'food style_options', 'positive', 'enormous']]\n"
+    },
+    {
+        "input": "so rude ! ! !",
+        "output": "[['null', 'service general', 'negative', 'rude']]\n"
+    },
+    {
+        "input": "this is a nice pizza place with good selection of thin crust pizza including the basil slice .",
+        "output": "[['selection of thin crust pizza', 'food style_options', 'positive', 'good'], ['selection of thin crust pizza', 'food quality', 'positive', 'good'], ['pizza place', 'restaurant general', 'positive', 'nice'], ['basil slice', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "the food is very average ... the thai fusion stuff is a bit too sweet , every thing they serve is too sweet here .",
+        "output": "[['food', 'food quality', 'negative', 'average'], ['thai fusion stuff', 'food quality', 'negative', 'too sweet'], ['null', 'food quality', 'negative', 'too sweet']]\n"
+    },
+    {
+        "input": "our waitress was n't mean , but not especially warm or attentive either .",
+        "output": "[['waitress', 'service general', 'neutral', \"was n't mean\"]]\n"
+    },
+    {
+        "input": "the sauce tasted more like chinese fast food than decent korean .",
+        "output": "[['sauce', 'food quality', 'negative', 'chinese fast food']]\n"
+    },
+    {
+        "input": "mussles and calamari were superb saturday evening .",
+        "output": "[['mussles', 'food quality', 'positive', 'superb'], ['calamari', 'food quality', 'positive', 'superb']]\n"
+    },
+    {
+        "input": "the food is wonderful , tasty and filling , and the service is professional and friendly .",
+        "output": "[['food', 'food quality', 'positive', 'wonderful'], ['food', 'food quality', 'positive', 'tasty'], ['food', 'food style_options', 'positive', 'filling'], ['service', 'service general', 'positive', 'professional'], ['service', 'service general', 'positive', 'friendly']]\n"
+    },
+    {
+        "input": "the service is awful .",
+        "output": "[['service', 'service general', 'negative', 'awful']]\n"
+    },
+    {
+        "input": "the fish was adequate , but inexpertly sliced .",
+        "output": "[['fish', 'food style_options', 'negative', 'adequate'], ['fish', 'food style_options', 'negative', 'inexpertly sliced']]\n"
+    },
+    {
+        "input": "bagels are ok , but be sure not to make any special requests !",
+        "output": "[['bagels', 'food quality', 'neutral', 'ok'], ['null', 'service general', 'negative', 'not to make any special requests']]\n"
+    },
+    {
+        "input": "good food",
+        "output": "[['food', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "the food was amazing , and the service was prompt and helpful , but not over-bearing or rushed .",
+        "output": "[['food', 'food quality', 'positive', 'amazing'], ['service', 'service general', 'positive', 'prompt'], ['service', 'service general', 'positive', 'helpful'], ['service', 'service general', 'positive', 'not over-bearing or rushed']]\n"
+    },
+    {
+        "input": "sauce was watery and the food did n't have much flavor .",
+        "output": "[['sauce', 'food quality', 'negative', 'watery'], ['food', 'food quality', 'negative', \"did n't have much flavor\"]]\n"
+    },
+    {
+        "input": "i was n't here for the pizza so i can 't comment on that yet but what i had was very good .",
+        "output": "[['null', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "we were less than impressed .",
+        "output": "[['null', 'restaurant general', 'negative', 'less than impressed']]\n"
+    },
+    {
+        "input": "the have a great cocktail with citrus vodka and lemon and lime juice and mint leaves that is to die for !",
+        "output": "[['cocktail with citrus vodka and lemon and lime juice and mint leaves', 'drinks quality', 'positive', 'great']]\n"
+    },
+    {
+        "input": "the food was average or above including some surprising tasty dishes .",
+        "output": "[['food', 'food quality', 'positive', 'average or above'], ['dishes', 'food quality', 'positive', 'tasty']]\n"
+    },
+    {
+        "input": "sometimes i get bad food and bad service , sometimes i get good good and bad service .",
+        "output": "[['food', 'food quality', 'negative', 'bad'], ['service', 'service general', 'negative', 'bad'], ['service', 'service general', 'negative', 'bad'], ['good', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "best drumsticks over rice and sour spicy soup in town !",
+        "output": "[['drumsticks over rice', 'food quality', 'positive', 'best'], ['sour spicy soup', 'food quality', 'positive', 'best']]\n"
+    },
+    {
+        "input": "the workers there also absolutely load the bagel with cream cheese ( gets a little messy ) .",
+        "output": "[['bagel', 'food style_options', 'negative', 'messy']]\n"
+    },
+    {
+        "input": "a few tips : skip the turnip cake , roast pork buns and egg custards .",
+        "output": "[['turnip cake', 'food quality', 'negative', 'skip'], ['roast pork buns', 'food quality', 'negative', 'skip'], ['egg custards', 'food quality', 'negative', 'skip']]\n"
+    },
+    {
+        "input": "best in all of nyc",
+        "output": "[['null', 'restaurant general', 'positive', 'best']]\n"
+    },
+    {
+        "input": "not worth it .",
+        "output": "[['null', 'food prices', 'negative', 'not worth']]\n"
+    },
+    {
+        "input": "vanison was good but not amazing .",
+        "output": "[['vanison', 'food quality', 'neutral', 'good']]\n"
+    },
+    {
+        "input": "at first we were a little taken aback , as this seemed to present a problem , although the restaurant looked fairly empty , but they hastily put the table together for us .",
+        "output": "[['null', 'service general', 'positive', 'hastily put the table together for us']]\n"
+    },
+    {
+        "input": "but for the shabu shabu , you won 't find much better in ny .",
+        "output": "[['shabu shabu', 'food quality', 'positive', \"won 't find much better\"]]\n"
+    },
+    {
+        "input": "the cypriot restaurant has a lot going for it .",
+        "output": "[['cypriot restaurant', 'restaurant general', 'positive', 'a lot going']]\n"
+    },
+    {
+        "input": "i have worked in restaurants and cook a lot , and there is no way a maggot should be able to get into well prepared food .",
+        "output": "[['food', 'food quality', 'negative', 'well prepared']]\n"
+    },
+    {
+        "input": "i 've been to at cafe spice probably 5-8 times , it is probably still the best indian restaurant around union square .",
+        "output": "[['cafe spice', 'restaurant general', 'positive', 'best']]\n"
+    },
+    {
+        "input": "there 's nice and quiet , small but enough for 6 ( or more ) .",
+        "output": "[['null', 'ambience general', 'positive', 'quiet'], ['null', 'ambience general', 'positive', 'nice']]\n"
+    },
+    {
+        "input": "i really loved the different and inovated touch that 's the cheff gives to the food .",
+        "output": "[['cheff', 'food style_options', 'positive', 'loved'], ['cheff', 'food style_options', 'positive', 'inovated']]\n"
+    },
+    {
+        "input": "the food is good , i ca n't lie .",
+        "output": "[['food', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "service , however , was excellent ... and i liked the setting/atmosphere a lot .",
+        "output": "[['service', 'service general', 'positive', 'excellent'], ['setting/atmosphere', 'ambience general', 'positive', 'liked']]\n"
+    },
+    {
+        "input": "food is usually very good , though ocasionally i wondered about freshmess of raw vegatables in side orders .",
+        "output": "[['food', 'food quality', 'positive', 'good'], ['raw vegatables in side orders', 'food quality', 'negative', 'wondered about freshmess']]\n"
+    },
+    {
+        "input": "i recommend it !",
+        "output": "[['null', 'restaurant general', 'positive', 'recommend']]\n"
+    },
+    {
+        "input": "my party had the bbe $ 29 fixe prix menu , which was such a wonderful deal since it also came with a flight of sake !",
+        "output": "[['bbe $ 29 fixe prix menu', 'food prices', 'positive', 'wonderful'], ['bbe $ 29 fixe prix menu', 'food style_options', 'positive', 'a flight of sake']]\n"
+    },
+    {
+        "input": "the food is reliable and the price is moderate .",
+        "output": "[['food', 'food quality', 'positive', 'reliable'], ['null', 'restaurant prices', 'neutral', 'moderate']]\n"
+    },
+    {
+        "input": "my roommate and i love this place .",
+        "output": "[['place', 'restaurant general', 'positive', 'love']]\n"
+    },
+    {
+        "input": "if you like your music blasted and the system isnt that great and if you want to pay at least 100 dollar bottle minimun then you 'll love it here .",
+        "output": "[['bottle', 'drinks prices', 'negative', 'love'], ['music', 'ambience general', 'negative', 'like']]\n"
+    },
+    {
+        "input": "the best pad thai i 've ever had .",
+        "output": "[['pad thai', 'food quality', 'positive', 'best']]\n"
+    },
+    {
+        "input": "i wish i could be refunded !",
+        "output": "[['null', 'restaurant general', 'negative', 'refunded']]\n"
+    },
+    {
+        "input": "although we were told 10-15 minutes and it was more like 45 minutes .",
+        "output": "[['null', 'service general', 'negative', '45 minutes']]\n"
+    },
+    {
+        "input": "each time we 've been , the front of house staff ( not the waiters - they 're fantastic - but the people who greet and seat you ) has been so hideous to us that were it not for the exceptional fish dishes i would never return .",
+        "output": "[['waiters', 'service general', 'positive', 'fantastic'], ['front of house staff', 'service general', 'negative', 'hideous'], ['fish dishes', 'food quality', 'positive', 'exceptional']]\n"
+    },
+    {
+        "input": "possibly the most romantic restaurant in the city",
+        "output": "[['restaurant', 'ambience general', 'positive', 'romantic']]\n"
+    },
+    {
+        "input": "i would go back .",
+        "output": "[['null', 'restaurant general', 'positive', 'go back']]\n"
+    },
+    {
+        "input": "although we were looking for regular lettuce and some walnuts the salads we got were great .",
+        "output": "[['salads', 'food quality', 'positive', 'great']]\n"
+    },
+    {
+        "input": "service is not exactly five star , but thats not really a big deal .",
+        "output": "[['service', 'service general', 'neutral', 'not exactly five star']]\n"
+    },
+    {
+        "input": "the food is great and the environment is even better .",
+        "output": "[['food', 'food quality', 'positive', 'great'], ['environment', 'ambience general', 'positive', 'better']]\n"
+    },
+    {
+        "input": "everything i had was good , and i 'm a eater .",
+        "output": "[['null', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "the buffet had a nice selection .",
+        "output": "[['buffet', 'food style_options', 'positive', 'nice']]\n"
+    },
+    {
+        "input": "i honestly do n't even know where to begin .",
+        "output": "[['null', 'restaurant general', 'negative', \"do n't even know where to begin\"]]\n"
+    },
+    {
+        "input": "delivery is fast too .",
+        "output": "[['delivery', 'service general', 'positive', 'fast']]\n"
+    },
+    {
+        "input": "best . sushi . ever .",
+        "output": "[['sushi', 'food quality', 'positive', 'best']]\n"
+    },
+    {
+        "input": "good spreads , great beverage selections and bagels really tasty .",
+        "output": "[['spreads', 'food quality', 'positive', 'good'], ['beverage selections', 'drinks style_options', 'positive', 'great'], ['bagels', 'food quality', 'positive', 'tasty']]\n"
+    },
+    {
+        "input": "everyone was more then happy with his choices .",
+        "output": "[['null', 'service general', 'positive', 'happy']]\n"
+    },
+    {
+        "input": "one of my favorite places in brooklyn .",
+        "output": "[['null', 'restaurant general', 'positive', 'favorite']]\n"
+    },
+    {
+        "input": "the concept of japanese tapas is newly created and clearly does n't work .",
+        "output": "[['japanese tapas', 'food style_options', 'negative', \"does n't work\"]]\n"
+    },
+    {
+        "input": "very good wine choices .",
+        "output": "[['wine choices', 'drinks style_options', 'positive', 'good']]\n"
+    },
+    {
+        "input": "i highly recommend the sophia pizza .",
+        "output": "[['sophia pizza', 'food quality', 'positive', 'recommend']]\n"
+    },
+    {
+        "input": "the service is excellent , the decor is great , and the food is delicious and comes in large portions .",
+        "output": "[['service', 'service general', 'positive', 'excellent'], ['decor', 'ambience general', 'positive', 'great'], ['food', 'food quality', 'positive', 'delicious'], ['portions', 'food style_options', 'positive', 'large']]\n"
+    },
+    {
+        "input": "i go twice a month !",
+        "output": "[['null', 'restaurant general', 'positive', 'twice a month']]\n"
+    },
+    {
+        "input": "also it 's great to have dinner in a very romantic and comfortable place , the service it 's just perfect ... they 're so frendly that we never want to live the place !",
+        "output": "[['place', 'ambience general', 'positive', 'romantic'], ['place', 'ambience general', 'positive', 'comfortable'], ['service', 'service general', 'positive', 'perfect']]\n"
+    },
+    {
+        "input": "and $ 11 for a plate of bland guacamole ?",
+        "output": "[['guacamole', 'food quality', 'negative', 'bland'], ['guacamole', 'food prices', 'negative', 'bland']]\n"
+    },
+    {
+        "input": "ingredients are organic which is a real plus for me .",
+        "output": "[['ingredients', 'food quality', 'positive', 'organic'], ['ingredients', 'food quality', 'positive', 'plus']]\n"
+    },
+    {
+        "input": "the food is yummy , especially their cooked-to-perfection mussels in spicy tomato sauce and their shoestring crispy fries .",
+        "output": "[['food', 'food quality', 'positive', 'yummy'], ['mussels in spicy tomato sauce', 'food quality', 'positive', 'yummy'], ['mussels in spicy tomato sauce', 'food quality', 'positive', 'cooked-to-perfection'], ['fries', 'food quality', 'positive', 'yummy'], ['fries', 'food quality', 'positive', 'crispy']]\n"
+    },
+    {
+        "input": "maitre-d- `` eat and get out ``",
+        "output": "[['maitre-d', 'service general', 'negative', 'get out']]\n"
+    },
+    {
+        "input": "lexicographers take note : a new and fascinating definition of rudeness is alive and flourishing right here in brooklyn .",
+        "output": "[['null', 'service general', 'negative', 'rudeness']]\n"
+    },
+    {
+        "input": "and evaluated on those terms pastis is simply wonderful .",
+        "output": "[['pastis', 'restaurant general', 'positive', 'wonderful']]\n"
+    },
+    {
+        "input": "awesome",
+        "output": "[['null', 'restaurant general', 'positive', 'awesome']]\n"
+    },
+    {
+        "input": "fresh restaurant was amazing ... ... .. food was delicious and of course fresh .",
+        "output": "[['fresh restaurant', 'restaurant general', 'positive', 'fresh'], ['fresh restaurant', 'restaurant general', 'positive', 'amazing'], ['food', 'food quality', 'positive', 'delicious'], ['food', 'food quality', 'positive', 'fresh']]\n"
+    },
+    {
+        "input": "delicious , creative and fun .",
+        "output": "[['null', 'food quality', 'positive', 'delicious'], ['null', 'food style_options', 'positive', 'creative'], ['null', 'food style_options', 'positive', 'fun']]\n"
+    },
+    {
+        "input": "it 's cuz it 's so good you need to taste it ! ! !",
+        "output": "[['null', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "i was speechless by the horrible food .",
+        "output": "[['food', 'food quality', 'negative', 'speechless']]\n"
+    },
+    {
+        "input": "it was wonderful .",
+        "output": "[['null', 'drinks quality', 'positive', 'wonderful']]\n"
+    },
+    {
+        "input": "however , i think this place is a good hang out spot .",
+        "output": "[['place', 'ambience general', 'positive', 'good']]\n"
+    },
+    {
+        "input": "the decor in this place is very diner-ish and the kind of place you expect in the east village - not romantic , just simple , small and sparse .",
+        "output": "[['decor', 'ambience general', 'neutral', 'diner-ish']]\n"
+    },
+    {
+        "input": "try the pad thai , or sample anything on the appetizer menu ... they 're all delicious .",
+        "output": "[['pad thai', 'food quality', 'positive', 'try'], ['pad thai', 'food quality', 'positive', 'delicious'], ['appetizer menu', 'food quality', 'positive', 'delicious']]\n"
+    },
+    {
+        "input": "ess-a-bagel ( either by sty-town or midtown ) is by far the best bagel in ny .",
+        "output": "[['bagel', 'food quality', 'positive', 'best']]\n"
+    },
+    {
+        "input": "and even with it 's pub atmosphere they were great to my kids too !",
+        "output": "[['null', 'service general', 'positive', 'great']]\n"
+    },
+    {
+        "input": "just awsome .",
+        "output": "[['null', 'food quality', 'positive', 'awsome']]\n"
+    },
+    {
+        "input": "red dragon roll - my favorite thing to eat , of any food group - hands down",
+        "output": "[['red dragon roll', 'food quality', 'positive', 'favorite']]\n"
+    },
+    {
+        "input": "the rice to fish ration was also good -- they did n't try to overpack the rice .",
+        "output": "[['rice to fish ration', 'food style_options', 'positive', 'good']]\n"
+    },
+    {
+        "input": "they have authentic indian at amazin prices .",
+        "output": "[['indian', 'food quality', 'positive', 'authentic'], ['indian', 'food prices', 'positive', 'authentic']]\n"
+    },
+    {
+        "input": "my father had the flank steak which was very good , and my mother had the swordfish .",
+        "output": "[['flank steak', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "fabulous food - if the front of house staff do n't put you off –",
+        "output": "[['food', 'food quality', 'positive', 'fabulous'], ['front of house staff', 'service general', 'negative', 'put you off']]\n"
+    },
+    {
+        "input": "by far , the best pizza in manhattan .",
+        "output": "[['pizza', 'food quality', 'positive', 'best']]\n"
+    },
+    {
+        "input": "overpriced and not tasty",
+        "output": "[['null', 'food prices', 'negative', 'overpriced'], ['null', 'food quality', 'negative', 'not tasty']]\n"
+    },
+    {
+        "input": "pizza is terrific , as is homemade pasta .",
+        "output": "[['pizza', 'food quality', 'positive', 'terrific'], ['homemade pasta', 'food quality', 'positive', 'terrific']]\n"
+    },
+    {
+        "input": "raga 's is a romantic , cozy restaurant .",
+        "output": "[[\"raga 's\", 'ambience general', 'positive', 'romantic'], [\"raga 's\", 'ambience general', 'positive', 'cozy']]\n"
+    },
+    {
+        "input": "expensive",
+        "output": "[['null', 'restaurant prices', 'negative', 'expensive']]\n"
+    },
+    {
+        "input": "the location is perfect .",
+        "output": "[['location', 'location general', 'positive', 'perfect']]\n"
+    },
+    {
+        "input": "all in all , this midtown gem instantly became one of my favorite sushi restaurants in the city .",
+        "output": "[['null', 'restaurant general', 'positive', 'favorite']]\n"
+    },
+    {
+        "input": "this place doesn 't make any sense",
+        "output": "[['place', 'restaurant general', 'negative', \"doesn 't make any sense\"]]\n"
+    },
+    {
+        "input": "the tables are crammed way too close , the menu is typical of any italian restaurant , and the wine list is simply overpriced .",
+        "output": "[['tables', 'ambience general', 'negative', 'crammed'], ['tables', 'ambience general', 'negative', 'too close'], ['menu', 'food style_options', 'neutral', 'typical'], ['wine list', 'drinks prices', 'negative', 'overpriced']]\n"
+    },
+    {
+        "input": "the food was pretty tradional but it was hot and good with large portions .",
+        "output": "[['food', 'food quality', 'positive', 'tradional'], ['portions', 'food style_options', 'positive', 'large']]\n"
+    },
+    {
+        "input": "i have reservations about the all you can eat deal , however -- the choices are fairly limited and you can probably order more food than you can eat for less than $ 18 by just going off the menu .",
+        "output": "[['all you can eat deal', 'food style_options', 'negative', 'limited'], ['all you can eat deal', 'food prices', 'negative', 'limited']]\n"
+    },
+    {
+        "input": "a must try !",
+        "output": "[['null', 'restaurant general', 'positive', 'a must try']]\n"
+    },
+    {
+        "input": "i have to say i have never had a disapointing meal here .",
+        "output": "[['meal', 'food quality', 'positive', 'never had a disapointing']]\n"
+    },
+    {
+        "input": "be sure not to get anything other than bagels ! . .",
+        "output": "[['null', 'food quality', 'negative', 'not to get anything']]\n"
+    },
+    {
+        "input": "the spinach is fresh , definately not frozen ...",
+        "output": "[['spinach', 'food quality', 'positive', 'fresh']]\n"
+    },
+    {
+        "input": "i had the thai style fried sea bass ... which was very good .",
+        "output": "[['thai style fried sea bass', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "the view is breathtaking the service is top notch ... the ambiance is wonderful .",
+        "output": "[['view', 'location general', 'positive', 'breathtaking'], ['service', 'service general', 'positive', 'top notch'], ['ambiance', 'ambience general', 'positive', 'wonderful']]\n"
+    },
+    {
+        "input": "the ambience was nice , but service was n't so great .",
+        "output": "[['ambience', 'ambience general', 'positive', 'nice'], ['service', 'service general', 'negative', \"was n't so great\"]]\n"
+    },
+    {
+        "input": "this place is not worth the prices .",
+        "output": "[['place', 'restaurant general', 'negative', 'not worth the prices'], ['place', 'restaurant prices', 'negative', 'not worth the prices']]\n"
+    },
+    {
+        "input": "we ate out in the back patio , which is worth it as it 's cool and the music is hear well there .",
+        "output": "[['back patio', 'ambience general', 'positive', 'worth'], ['back patio', 'ambience general', 'positive', 'cool'], ['music', 'ambience general', 'positive', 'well']]\n"
+    },
+    {
+        "input": "i did not try the caviar but i tried their salmon and crab salad ( they are all good )",
+        "output": "[['salmon', 'food quality', 'positive', 'good'], ['crab salad', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "we were seated outside and the waiter spilled red wine and hot tea on myself and my date .",
+        "output": "[['waiter', 'service general', 'negative', 'spilled']]\n"
+    },
+    {
+        "input": "we asked for beverages and never received them .",
+        "output": "[['null', 'service general', 'negative', 'never received']]\n"
+    },
+    {
+        "input": "great indian food and the service is incredible .",
+        "output": "[['indian food', 'food quality', 'positive', 'great'], ['service', 'service general', 'positive', 'incredible']]\n"
+    },
+    {
+        "input": "i would defiantly come back here again as one of my top choices .",
+        "output": "[['null', 'restaurant general', 'positive', 'top choices']]\n"
+    },
+    {
+        "input": "okay-i do n't mind the oily part ( cause most are cooked that way ) but it was way too bland .",
+        "output": "[['null', 'food quality', 'negative', 'oily'], ['null', 'food quality', 'negative', 'bland']]\n"
+    },
+    {
+        "input": "the atmosphere is noisy and the waiters are literally walking around doing things as fast as they can .",
+        "output": "[['atmosphere', 'ambience general', 'negative', 'noisy'], ['waiters', 'service general', 'positive', 'fast']]\n"
+    },
+    {
+        "input": "it 's a perfect place to have a amazing indian food .",
+        "output": "[['indian food', 'food quality', 'positive', 'amazing']]\n"
+    },
+    {
+        "input": "the freshest , best variety , and the fastest delivery .",
+        "output": "[['null', 'food quality', 'positive', 'freshest'], ['null', 'food style_options', 'positive', 'best variety'], ['delivery', 'service general', 'positive', 'fastest']]\n"
+    },
+    {
+        "input": "i found the food , service and value exceptional everytime i have been there .",
+        "output": "[['food', 'food quality', 'positive', 'exceptional'], ['service', 'service general', 'positive', 'exceptional'], ['value', 'restaurant prices', 'positive', 'exceptional']]\n"
+    },
+    {
+        "input": "in an area sadly lacking in decent thai food , this is one of the best spots .",
+        "output": "[['thai food', 'food quality', 'positive', 'decent']]\n"
+    },
+    {
+        "input": "i got an excellent piece of cheesecake and we had several other nice pastries .",
+        "output": "[['cheesecake', 'food quality', 'positive', 'excellent'], ['pastries', 'food quality', 'positive', 'nice']]\n"
+    },
+    {
+        "input": "i would highly recommend this place !",
+        "output": "[['place', 'restaurant general', 'positive', 'recommend']]\n"
+    },
+    {
+        "input": "this is where it really really gets bad : the manager said , there is absolutely nothing we can do , it 's a matter of taste that she did n't like it , and i can not comp it .",
+        "output": "[['manager', 'service general', 'negative', 'bad']]\n"
+    },
+    {
+        "input": "the perfect spot .",
+        "output": "[['spot', 'restaurant general', 'positive', 'perfect']]\n"
+    },
+    {
+        "input": "service ok but unfriendly , filthy bathroom .",
+        "output": "[['service', 'service general', 'negative', 'unfriendly'], ['bathroom', 'ambience general', 'negative', 'filthy']]\n"
+    },
+    {
+        "input": "the staff was accomodating , the food was absolutely delicious and the place is lovely .",
+        "output": "[['staff', 'service general', 'positive', 'accomodating'], ['food', 'food quality', 'positive', 'delicious'], ['place', 'ambience general', 'positive', 'lovely']]\n"
+    },
+    {
+        "input": "good music , great food , speedy service affordable prices .",
+        "output": "[['music', 'ambience general', 'positive', 'good'], ['food', 'food quality', 'positive', 'great'], ['service', 'service general', 'positive', 'speedy'], ['null', 'restaurant prices', 'positive', 'affordable']]\n"
+    },
+    {
+        "input": "we were planning to get dessert but the waitress basically through the bill at us before we had a chance to order .",
+        "output": "[['waitress', 'service general', 'negative', 'through the bill']]\n"
+    },
+    {
+        "input": "we had a great time at the jekyll and hyde pub last night .",
+        "output": "[['jekyll and hyde pub', 'restaurant general', 'positive', 'great time']]\n"
+    },
+    {
+        "input": "the food is authentic italian - delicious !",
+        "output": "[['food', 'food quality', 'positive', 'authentic italian'], ['food', 'food quality', 'positive', 'delicious']]\n"
+    },
+    {
+        "input": "i thanked my friend who recommended me this restaurant and will certainly recommend it to others .",
+        "output": "[['restaurant', 'restaurant general', 'positive', 'recommend']]\n"
+    },
+    {
+        "input": "planet thai is great !",
+        "output": "[['planet thai', 'restaurant general', 'positive', 'great']]\n"
+    },
+    {
+        "input": "to sum it up : service varies from good to mediorce , depending on which waiter you get ; generally it is just average ok .",
+        "output": "[['service', 'service general', 'neutral', 'varies']]\n"
+    },
+    {
+        "input": "restaurant with a view",
+        "output": "[['view', 'location general', 'neutral', 'with a view']]\n"
+    },
+    {
+        "input": "the food was not fresh , the sauces were bland and very oily .",
+        "output": "[['food', 'food quality', 'negative', 'not fresh'], ['sauces', 'food quality', 'negative', 'bland'], ['sauces', 'food quality', 'negative', 'oily']]\n"
+    },
+    {
+        "input": "i literally just got back home after visiting casa la femme and was so offended by my visit felt it necessary to try and warn other diners who value their money and time .",
+        "output": "[['casa la femme', 'restaurant general', 'negative', 'offended'], ['casa la femme', 'restaurant prices', 'negative', 'offended']]\n"
+    },
+    {
+        "input": "this is one of my favorite restaurants and it is not to be missed .",
+        "output": "[['null', 'restaurant general', 'positive', 'favorite']]\n"
+    },
+    {
+        "input": "anybody who likes this place must be from a different planet , where greasy , dry and tasteless are complimentary .",
+        "output": "[['null', 'food quality', 'negative', 'greasy'], ['null', 'food quality', 'negative', 'dry'], ['null', 'food quality', 'negative', 'tasteless']]\n"
+    },
+    {
+        "input": "rao 's has the best service and atmosphere in nyc .",
+        "output": "[['service', 'service general', 'positive', 'best'], ['atmosphere', 'ambience general', 'positive', 'best']]\n"
+    },
+    {
+        "input": "quite simply it 's like stepping out of manhattan and into a haven of tranquility .",
+        "output": "[['null', 'ambience general', 'positive', 'a haven of tranquility']]\n"
+    },
+    {
+        "input": "the place is a lot of fun .",
+        "output": "[['place', 'ambience general', 'positive', 'fun']]\n"
+    },
+    {
+        "input": "with the great variety on the menu , i eat here often and never get bored .",
+        "output": "[['menu', 'food style_options', 'positive', 'great variety']]\n"
+    },
+    {
+        "input": "the vibe is very relaxed and cozy , service was great and the food was excellent !",
+        "output": "[['vibe', 'ambience general', 'positive', 'relaxed'], ['vibe', 'ambience general', 'positive', 'cozy'], ['service', 'service general', 'positive', 'great'], ['food', 'food quality', 'positive', 'excellent']]\n"
+    },
+    {
+        "input": "i have lived in japan for 7 years and the taste of the food and the feel of the restaurant is like being back in japan .",
+        "output": "[['food', 'food quality', 'positive', 'like being back in japan'], ['feel', 'ambience general', 'positive', 'like being back in japan']]\n"
+    },
+    {
+        "input": "if you like spicy food get the chicken vindaloo .",
+        "output": "[['chicken vindaloo', 'food quality', 'positive', 'get']]\n"
+    },
+    {
+        "input": "decor is nice though service can be spotty .",
+        "output": "[['decor', 'ambience general', 'positive', 'nice'], ['service', 'service general', 'negative', 'spotty']]\n"
+    },
+    {
+        "input": "the atmosphere is n't the greatest , but i suppose that 's how they keep the prices down .",
+        "output": "[['atmosphere', 'ambience general', 'negative', \"is n't the greatest\"], ['null', 'restaurant prices', 'positive', 'keep the prices down']]\n"
+    },
+    {
+        "input": "i can 't remember the last time i had such gross food in new york .",
+        "output": "[['food', 'food quality', 'negative', 'gross']]\n"
+    },
+    {
+        "input": "we ate at this thai place following the reviews but very unhappy with the foods .",
+        "output": "[['foods', 'food quality', 'negative', 'unhappy']]\n"
+    },
+    {
+        "input": "definitely a neighborhood favorite .",
+        "output": "[['null', 'restaurant general', 'positive', 'favorite']]\n"
+    },
+    {
+        "input": "the pesto pizza was excellent , thin-crust pizza with a nice amount of spicy italian cheese that i 'd never heard of before .",
+        "output": "[['pesto pizza', 'food quality', 'positive', 'excellent'], ['spicy italian cheese', 'food quality', 'positive', 'nice']]\n"
+    },
+    {
+        "input": "food took some time to prepare , all worth waiting for .",
+        "output": "[['food', 'food quality', 'positive', 'worth'], ['null', 'service general', 'neutral', 'took some time']]\n"
+    },
+    {
+        "input": "regardless , we 'll be back and can 't wait to visit in the summer to take advantage of the patio .",
+        "output": "[['null', 'restaurant general', 'positive', 'be back']]\n"
+    },
+    {
+        "input": "leon is an east village gem : casual but hip , with well prepared basic french bistro fare , good specials , a warm and lively atmosphere .",
+        "output": "[['leon', 'ambience general', 'positive', 'casual'], ['leon', 'ambience general', 'positive', 'hip'], ['specials', 'food quality', 'positive', 'good'], ['atmosphere', 'ambience general', 'positive', 'warm'], ['atmosphere', 'ambience general', 'positive', 'lively'], ['french bistro fare', 'food quality', 'positive', 'well prepared']]\n"
+    },
+    {
+        "input": "best meal in a long time !",
+        "output": "[['meal', 'food quality', 'positive', 'best']]\n"
+    },
+    {
+        "input": "as always we had a great glass of wine while we waited .",
+        "output": "[['glass of wine', 'drinks quality', 'positive', 'great']]\n"
+    },
+    {
+        "input": "hurley 's is like cheers where everyone knows your name and they are actually glad you came .",
+        "output": "[[\"hurley 's\", 'service general', 'positive', 'glad']]\n"
+    },
+    {
+        "input": "overpriced japanese food with mediocre service",
+        "output": "[['japanese food', 'food prices', 'negative', 'overpriced'], ['service', 'service general', 'neutral', 'mediocre']]\n"
+    },
+    {
+        "input": "i have been doing all of the above at the heartland brewery for over 5 years now and i have never been disappointed !",
+        "output": "[['heartland brewery', 'restaurant general', 'positive', 'never been disappointed']]\n"
+    },
+    {
+        "input": "we had pam 's special fried fish and it was amazing .",
+        "output": "[[\"pam 's special fried fish\", 'food quality', 'positive', 'amazing']]\n"
+    },
+    {
+        "input": "the menu is limited but almost all of the dishes are excellent .",
+        "output": "[['menu', 'food style_options', 'negative', 'limited'], ['dishes', 'food quality', 'positive', 'excellent']]\n"
+    },
+    {
+        "input": "for each course we waited over 1 /2 hour to 45 minutes and were never offered a drink .",
+        "output": "[['null', 'service general', 'negative', 'waited over 1 /2 hour to 45 minutes']]\n"
+    },
+    {
+        "input": "everything about this restaurant was special .",
+        "output": "[['restaurant', 'restaurant general', 'positive', 'special']]\n"
+    },
+    {
+        "input": "we did arrive late for our reservation so i can not complain too much about the wait for a table .",
+        "output": "[['wait', 'service general', 'neutral', 'can not complain too much']]\n"
+    },
+    {
+        "input": "bad staff",
+        "output": "[['staff', 'service general', 'negative', 'bad']]\n"
+    },
+    {
+        "input": "this little place has a cute interior decor and affordable city prices .",
+        "output": "[['interior decor', 'ambience general', 'positive', 'cute'], ['place', 'restaurant prices', 'positive', 'little']]\n"
+    },
+    {
+        "input": "but $ 500 for a dinner for two that didn 't include wine ?",
+        "output": "[['dinner for two', 'food prices', 'negative', \"didn 't include wine\"]]\n"
+    },
+    {
+        "input": "this is a nice restaurant if you are looking for a good place to host an intimate dinner meeting with business associates .",
+        "output": "[['restaurant', 'restaurant miscellaneous', 'positive', 'nice']]\n"
+    },
+    {
+        "input": "try green curry with vegetables .",
+        "output": "[['green curry with vegetables', 'food quality', 'positive', 'try']]\n"
+    },
+    {
+        "input": "my boyfriend had the new england chowder it was good but i think the award should go to the lobster bisque .",
+        "output": "[['new england chowder', 'food quality', 'positive', 'good'], ['lobster bisque', 'food quality', 'positive', 'award']]\n"
+    },
+    {
+        "input": "love pizza 33 ...",
+        "output": "[['pizza 33', 'restaurant general', 'positive', 'love']]\n"
+    },
+    {
+        "input": "what a hassle !",
+        "output": "[['null', 'restaurant general', 'negative', 'hassle']]\n"
+    },
+    {
+        "input": "poor service and management",
+        "output": "[['service', 'service general', 'negative', 'poor'], ['management', 'service general', 'negative', 'poor']]\n"
+    },
+    {
+        "input": "and the tom kha soup was pathetic .",
+        "output": "[['tom kha soup', 'food quality', 'negative', 'pathetic']]\n"
+    },
+    {
+        "input": "moderate prices .",
+        "output": "[['null', 'restaurant prices', 'neutral', 'moderate']]\n"
+    },
+    {
+        "input": "the hostess and the waitress were incredibly rude and did everything they could to rush us out .",
+        "output": "[['hostess', 'service general', 'negative', 'rude'], ['waitress', 'service general', 'negative', 'rude']]\n"
+    },
+    {
+        "input": "on a recent sunday afternoon , a friend and i accidently found this great restaurant on our way to see the pulitzer prize winning play doubt .",
+        "output": "[['restaurant', 'restaurant general', 'positive', 'great']]\n"
+    },
+    {
+        "input": "there is something about their atmosphere that makes me come back nearly every week .",
+        "output": "[['atmosphere', 'ambience general', 'positive', 'come back']]\n"
+    },
+    {
+        "input": "great indian food",
+        "output": "[['indian food', 'food quality', 'positive', 'great']]\n"
+    },
+    {
+        "input": "the back garden sitting area is very pleasant , where you can see their personal herb garden .",
+        "output": "[['back garden sitting area', 'ambience general', 'positive', 'pleasant']]\n"
+    },
+    {
+        "input": "the service was terrible , we had to wait for everything and ask several of different people for the same thing before we were allowed to be served .",
+        "output": "[['service', 'service general', 'negative', 'terrible']]\n"
+    },
+    {
+        "input": "oh , and i never write reviews -- i just was so moved by how bad this place was , i felt it was my duty to spread the word .",
+        "output": "[['place', 'restaurant general', 'negative', 'bad']]\n"
+    },
+    {
+        "input": "not a very fancy place but very good chinese style indian food .",
+        "output": "[['place', 'ambience general', 'neutral', 'fancy'], ['chinese style indian food', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "wonderful strawberry daiquiries as well !",
+        "output": "[['strawberry daiquiries', 'drinks quality', 'positive', 'wonderful']]\n"
+    },
+    {
+        "input": "the food was lousy - too sweet or too salty and the portions tiny .",
+        "output": "[['food', 'food quality', 'negative', 'lousy'], ['food', 'food quality', 'negative', 'too sweet'], ['food', 'food quality', 'negative', 'too salty'], ['portions', 'food style_options', 'negative', 'tiny']]\n"
+    },
+    {
+        "input": "delicious bagels , especially when right out of the oven .",
+        "output": "[['bagels', 'food quality', 'positive', 'delicious']]\n"
+    },
+    {
+        "input": "although they do the typical what kind of water would you like questions the service was good and overall very relaxing to place to eat .",
+        "output": "[['service', 'service general', 'positive', 'good'], ['place', 'ambience general', 'positive', 'relaxing']]\n"
+    },
+    {
+        "input": "i almost hesititate to write a review because the atmosphere was so great and i would hate for it too become to crowded .",
+        "output": "[['atmosphere', 'ambience general', 'positive', 'great']]\n"
+    },
+    {
+        "input": "this was my frist time at cafe st. bart 's and i must say how delicious the food and the service was .",
+        "output": "[['food', 'food quality', 'positive', 'delicious']]\n"
+    },
+    {
+        "input": "the service was excellent and the food was delicious .",
+        "output": "[['service', 'service general', 'positive', 'excellent'], ['food', 'food quality', 'positive', 'delicious']]\n"
+    },
+    {
+        "input": "for those that go once and do n't enjoy it , all i can say is that they just do n't get it .",
+        "output": "[['null', 'restaurant miscellaneous', 'positive', 'enjoy']]\n"
+    },
+    {
+        "input": "the bar drinks were eh , ok to say the least .",
+        "output": "[['bar drinks', 'drinks quality', 'negative', 'ok']]\n"
+    },
+    {
+        "input": "considering we were the last patrons there and it was after the closing time , the waitstaff did not rush us at all and made us feel comfortable and relaxed .",
+        "output": "[['waitstaff', 'service general', 'positive', 'comfortable'], ['waitstaff', 'service general', 'positive', 'relaxed']]\n"
+    },
+    {
+        "input": "the food is great .",
+        "output": "[['food', 'food quality', 'positive', 'great']]\n"
+    },
+    {
+        "input": "great vibe , lots of people .",
+        "output": "[['vibe', 'ambience general', 'positive', 'great']]\n"
+    },
+    {
+        "input": "this is undoubtedly my favorite modern japanese brasserie ( that don ’ t serve sushi ) , and in my opinion , one of the most romantic restaurants in the city !",
+        "output": "[['modern japanese brasserie', 'restaurant general', 'positive', 'favorite'], ['modern japanese brasserie', 'ambience general', 'positive', 'romantic']]\n"
+    },
+    {
+        "input": "the bread we received was horrible - rock hard and cold - and the `` free `` appetizer of olives was disappointing .",
+        "output": "[['bread', 'food quality', 'negative', 'horrible'], ['appetizer of olives', 'food quality', 'negative', 'disappointing'], ['appetizer of olives', 'food prices', 'neutral', '`` free ``']]\n"
+    },
+    {
+        "input": "while it is understandable that every place is indeed different , there was not a need to be uncourteous to customers and downright rude .",
+        "output": "[['null', 'service general', 'negative', 'rude']]\n"
+    },
+    {
+        "input": "the nakgi-bokum was horrible .",
+        "output": "[['nakgi-bokum', 'food quality', 'negative', 'horrible']]\n"
+    },
+    {
+        "input": "i ate here a week ago and found most dishes average at best and too expensive .",
+        "output": "[['dishes', 'food quality', 'negative', 'average'], ['dishes', 'food prices', 'negative', 'too expensive']]\n"
+    },
+    {
+        "input": "they honored reservation on sunday afternoon very well .",
+        "output": "[['null', 'service general', 'positive', 'very well']]\n"
+    },
+    {
+        "input": "the hostess was very pleasant .",
+        "output": "[['hostess', 'service general', 'positive', 'pleasant']]\n"
+    },
+    {
+        "input": "skip this restaurant , it 's a big disappointment .",
+        "output": "[['restaurant', 'restaurant general', 'negative', 'skip'], ['restaurant', 'restaurant general', 'negative', 'disappointment']]\n"
+    },
+    {
+        "input": "service was very good - prompt , attentive and non-intrusive .",
+        "output": "[['service', 'service general', 'positive', 'good'], ['service', 'service general', 'positive', 'prompt'], ['service', 'service general', 'positive', 'attentive'], ['service', 'service general', 'positive', 'non-intrusive']]\n"
+    },
+    {
+        "input": "i was there on sat . for my birthday and we had an excellent time .",
+        "output": "[['null', 'restaurant general', 'positive', 'excellent']]\n"
+    },
+    {
+        "input": "la rosa waltzes in , and i think they are doing it the best .",
+        "output": "[['la rosa', 'food quality', 'positive', 'best']]\n"
+    },
+    {
+        "input": "toons has recently been redone , so it 's now a very attractive space .",
+        "output": "[['toons', 'ambience general', 'positive', 'attractive']]\n"
+    },
+    {
+        "input": "sushi experience was unbelievable with my fiance .",
+        "output": "[['sushi', 'food quality', 'positive', 'unbelievable']]\n"
+    },
+    {
+        "input": "i don ’ t usually visit the same establishment more than once , what more twice , but i ’ ll come to zenkichi anytime for a quiet , unhurried and memorable dinner .",
+        "output": "[['zenkichi', 'restaurant general', 'positive', 'come to zenkichi anytime'], ['zenkichi', 'ambience general', 'positive', 'quiet'], ['zenkichi', 'ambience general', 'positive', 'unhurried'], ['zenkichi', 'ambience general', 'positive', 'memorable']]\n"
+    },
+    {
+        "input": "i highly recommend caviar russe to anyone who wants delicious top grade caviar and fantastic service .",
+        "output": "[['caviar', 'food quality', 'positive', 'delicious top grade'], ['service', 'service general', 'positive', 'fantastic']]\n"
+    },
+    {
+        "input": "we left , never to return .",
+        "output": "[['null', 'restaurant general', 'negative', 'never to return']]\n"
+    },
+    {
+        "input": "these are overpriced and you can get better just around the corner :",
+        "output": "[['null', 'food prices', 'negative', 'overpriced'], ['null', 'food quality', 'negative', 'can get better']]\n"
+    },
+    {
+        "input": "go there once and oh yes ... you will go back ... you will ...",
+        "output": "[['null', 'restaurant general', 'positive', 'go back']]\n"
+    },
+    {
+        "input": "the steak tartare is a great bet , they fix it for you at the table .",
+        "output": "[['steak tartare', 'food style_options', 'positive', 'great']]\n"
+    },
+    {
+        "input": "i like cafe noir dont get me wrong , it is jsut that the people who work there are evil and incompetent ! !",
+        "output": "[['people', 'service general', 'negative', 'evil'], ['people', 'service general', 'negative', 'incompetent'], ['cafe noir', 'restaurant general', 'positive', 'like']]\n"
+    },
+    {
+        "input": "it 's very spicy but not offensive .",
+        "output": "[['null', 'food quality', 'positive', 'not offensive']]\n"
+    },
+    {
+        "input": "first of all dal bukhara rocks .",
+        "output": "[['dal bukhara', 'food quality', 'positive', 'rocks']]\n"
+    },
+    {
+        "input": "the wine list is excellent .",
+        "output": "[['wine list', 'drinks style_options', 'positive', 'excellent']]\n"
+    },
+    {
+        "input": "however , our $ 14 drinks were were horrible !",
+        "output": "[['drinks', 'drinks quality', 'negative', 'horrible'], ['drinks', 'drinks prices', 'negative', 'horrible']]\n"
+    },
+    {
+        "input": "no desert menu , no apology , nothing ! ! ! ! ! !",
+        "output": "[['null', 'service general', 'negative', 'no apology ']]\n"
+    },
+    {
+        "input": "this is some really good , inexpensive sushi .",
+        "output": "[['sushi', 'food quality', 'positive', 'good'], ['sushi', 'food prices', 'positive', 'inexpensive']]\n"
+    },
+    {
+        "input": "i 've been there three times and have always had wonderful experiences .",
+        "output": "[['null', 'restaurant general', 'positive', 'wonderful']]\n"
+    },
+    {
+        "input": "took my mom for mother 's day , and the maitre d ' was pretty rude .",
+        "output": "[[\"maitre d '\", 'service general', 'negative', 'rude']]\n"
+    },
+    {
+        "input": "however , go for the ambience , and consider the food just a companion for a trip across the world !",
+        "output": "[['food', 'food quality', 'neutral', 'a companion for a trip across the world ']]\n"
+    },
+    {
+        "input": "probably would not go back here .",
+        "output": "[['null', 'restaurant general', 'negative', 'would not go back']]\n"
+    },
+    {
+        "input": "just want to warn you all - do n't waste your time and money .",
+        "output": "[['null', 'restaurant general', 'negative', 'waste']]\n"
+    },
+    {
+        "input": "the filet mignon dish was superb !",
+        "output": "[['filet mignon dish', 'food quality', 'positive', 'superb']]\n"
+    },
+    {
+        "input": "the only downside ... they only take cash which is ok if you know about it ahead of time .",
+        "output": "[['null', 'restaurant miscellaneous', 'negative', 'downside']]\n"
+    },
+    {
+        "input": "the service is ok , some of the people did n't get what they asked for .",
+        "output": "[['service', 'service general', 'neutral', 'ok']]\n"
+    },
+    {
+        "input": "i have never before eaten 40 pieces of relatively good nigiri .",
+        "output": "[['nigiri', 'food quality', 'neutral', 'good']]\n"
+    },
+    {
+        "input": "it is expensive but well worth the money .",
+        "output": "[['null', 'restaurant prices', 'negative', 'expensive'], ['null', 'restaurant general', 'positive', 'well worth']]\n"
+    },
+    {
+        "input": "the place 's decor and hidden bathrooms made for a good laugh .",
+        "output": "[['decor', 'ambience general', 'positive', 'good laugh'], ['hidden bathrooms', 'ambience general', 'positive', 'good laugh']]\n"
+    },
+    {
+        "input": "the lobster sandwich is $ 24 and although it was good it was not nearly enough to warrant that price .",
+        "output": "[['lobster sandwich', 'food quality', 'positive', 'good'], ['lobster sandwich', 'food prices', 'negative', 'not nearly enough to warrant that price']]\n"
+    },
+    {
+        "input": "the food is very good , but not outstanding .",
+        "output": "[['food', 'food quality', 'neutral', 'good']]\n"
+    },
+    {
+        "input": "downstairs lounge is always a good attraction",
+        "output": "[['downstairs lounge', 'ambience general', 'positive', 'good attraction']]\n"
+    },
+    {
+        "input": "the spicy tuna roll is huge and probably the best that i 've had at this price range .",
+        "output": "[['spicy tuna roll', 'food style_options', 'positive', 'huge'], ['spicy tuna roll', 'food quality', 'positive', 'best'], ['spicy tuna roll', 'food prices', 'positive', 'best']]\n"
+    },
+    {
+        "input": "the chicken lollipop is my favorite , most of the dishes ( i have to agree with a previous reviewer ) are quite oily and very spicy , espeically the chilli chicken .",
+        "output": "[['chicken lollipop', 'food quality', 'positive', 'favorite'], ['dishes', 'food quality', 'negative', 'oily'], ['dishes', 'food quality', 'negative', 'spicy'], ['chilli chicken', 'food quality', 'negative', 'oily'], ['chilli chicken', 'food quality', 'negative', 'spicy']]\n"
+    },
+    {
+        "input": "can 't argue about that , but they are clearly over priced .",
+        "output": "[['null', 'food prices', 'negative', 'over priced']]\n"
+    },
+    {
+        "input": "one special roll and one regular roll is enough to fill you up , but save room for dessert !",
+        "output": "[['dessert', 'food quality', 'positive', 'save room'], ['special roll', 'food style_options', 'positive', 'enough'], ['regular roll', 'food style_options', 'positive', 'enough']]\n"
+    },
+    {
+        "input": "we were then shooed inside .",
+        "output": "[['null', 'service general', 'negative', 'shooed']]\n"
+    },
+    {
+        "input": "inexpensive , unassuming , great time !",
+        "output": "[['null', 'restaurant prices', 'positive', 'inexpensive'], ['null', 'ambience general', 'positive', 'unassuming'], ['null', 'restaurant general', 'positive', 'great']]\n"
+    },
+    {
+        "input": "the hanger steak was like rubber and the tuna was flavorless not to mention it tasted like it had just been thawed .",
+        "output": "[['hanger steak', 'food quality', 'negative', 'rubber'], ['tuna', 'food quality', 'negative', 'flavorless']]\n"
+    },
+    {
+        "input": "excellent spot for holiday get togethers with co-workers or friends that you have n't seen in a while .",
+        "output": "[['spot', 'restaurant miscellaneous', 'positive', 'excellent']]\n"
+    },
+    {
+        "input": "small servings for main entree , i had salmon ( wasnt impressed ) girlfriend had chicken , it was good .",
+        "output": "[['salmon', 'food quality', 'negative', 'wasnt impressed'], ['chicken', 'food quality', 'positive', 'good'], ['servings for main entree', 'food general', 'negative', 'small']]\n"
+    },
+    {
+        "input": "it was divine melts in your mouth .",
+        "output": "[['null', 'food quality', 'positive', 'divine']]\n"
+    },
+    {
+        "input": "my six year old loved it .",
+        "output": "[['null', 'restaurant general', 'positive', 'loved']]\n"
+    },
+    {
+        "input": "terrible waste of money . . scammers",
+        "output": "[['null', 'restaurant general', 'negative', 'terrible'], ['null', 'restaurant prices', 'negative', 'waste of money']]\n"
+    },
+    {
+        "input": "love it .",
+        "output": "[['null', 'restaurant general', 'positive', 'love']]\n"
+    },
+    {
+        "input": "you will not be disapointed at all .",
+        "output": "[['null', 'restaurant general', 'positive', 'will not be disapointed']]\n"
+    },
+    {
+        "input": "food was just average ... if they lowered the prices just a bit , it would be a bigger draw .",
+        "output": "[['food', 'food quality', 'neutral', 'average']]\n"
+    },
+    {
+        "input": "everything was going good until we got our meals .",
+        "output": "[['null', 'restaurant general', 'positive', 'good']]\n"
+    },
+    {
+        "input": "i 've also been amazed at all the new additions in the past few years : a new jazz bar , the most fantastic dining garden , the best thin crust pizzas , and now a lasagna menu which is to die for ( these are not your average lasagnas ) !",
+        "output": "[['dining garden', 'ambience general', 'positive', 'fantastic'], ['jazz bar', 'ambience general', 'positive', 'new'], ['thin crust pizzas', 'food quality', 'positive', 'best'], ['lasagna menu', 'food quality', 'positive', 'die for']]\n"
+    },
+    {
+        "input": "after dinner the manager grabbed my boyfriend , asked him : where are you from ... maybe you dont know how things work in america ... and in the end stormed away almost teareyed yelling that tips are the only thing they survive on .",
+        "output": "[['manager', 'service general', 'negative', 'yelling']]\n"
+    },
+    {
+        "input": "the restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal",
+        "output": "[['meal', 'food quality', 'positive', 'enjoy'], ['meal', 'food quality', 'positive', 'great'], ['restaurant', 'ambience general', 'negative', 'noisy']]\n"
+    },
+    {
+        "input": "do n't miss bloom 's on your next trip to manhatten .",
+        "output": "[[\"bloom 's\", 'restaurant general', 'positive', 'miss']]\n"
+    },
+    {
+        "input": "the food was good .",
+        "output": "[['food', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "the atmosphere is unheralded , the service impecible , and the food magnificant .",
+        "output": "[['atmosphere', 'ambience general', 'positive', 'unheralded'], ['service', 'service general', 'positive', 'impecible'], ['food', 'food quality', 'positive', 'magnificant']]\n"
+    },
+    {
+        "input": "would never go back there .",
+        "output": "[['null', 'restaurant general', 'negative', 'never go back']]\n"
+    },
+    {
+        "input": "two complaints -- their appetizer selection stinks , it would be nice to get some mozzarella sticks on the menu .",
+        "output": "[['appetizer selection', 'food style_options', 'negative', 'complaints']]\n"
+    },
+    {
+        "input": "$ 6 and there is much tasty food , all of it fresh and continually refilled .",
+        "output": "[['food', 'food quality', 'positive', 'tasty'], ['food', 'food quality', 'positive', 'fresh'], ['food', 'food prices', 'positive', 'refilled']]\n"
+    },
+    {
+        "input": "the exotic food is beautifully presented and is a delight in delicious combinations .",
+        "output": "[['exotic food', 'food style_options', 'positive', 'beautifully presented'], ['exotic food', 'food quality', 'positive', 'delight']]\n"
+    },
+    {
+        "input": "a gentleman , maybe the manager , came to our table , and without so much as a smile or greeting asked for our order .",
+        "output": "[['gentleman', 'service general', 'negative', 'without so much as a smile or greeting']]\n"
+    },
+    {
+        "input": "i will be going back very soon .",
+        "output": "[['null', 'restaurant general', 'positive', 'going back']]\n"
+    },
+    {
+        "input": "the food we ordered was excellent , although i would n't say the margaritas were anything to write home about .",
+        "output": "[['food', 'food quality', 'positive', 'excellent'], ['margaritas', 'drinks quality', 'neutral', 'anything to write home about']]\n"
+    },
+    {
+        "input": "what we did do was waste 3 hours being trapped in a table waiting and waiting for food and drinks and hooka . . some of which we never received !",
+        "output": "[['null', 'service general', 'negative', 'never received']]\n"
+    },
+    {
+        "input": "but the pizza is way to expensive .",
+        "output": "[['pizza', 'food prices', 'negative', 'expensive']]\n"
+    },
+    {
+        "input": "just straight up cheap , good food .",
+        "output": "[['food', 'food quality', 'positive', 'good'], ['food', 'food prices', 'positive', 'cheap']]\n"
+    },
+    {
+        "input": "this dish is my favorite and i always get it when i go there and never get tired of it .",
+        "output": "[['dish', 'food quality', 'positive', 'favorite']]\n"
+    },
+    {
+        "input": "$ 20 for all you can eat sushi can not be beaten .",
+        "output": "[['all you can eat sushi', 'food prices', 'positive', 'beaten']]\n"
+    },
+    {
+        "input": "we even had a visit from the manager who wanted to make sure we were enjoying ourselves .",
+        "output": "[['manager', 'service general', 'positive', 'enjoying']]\n"
+    },
+    {
+        "input": "i was shocked that my friends wanted to stay after the waitress said , `` can i help you `` and `` how many are in your party . ``",
+        "output": "[['waitress', 'service general', 'negative', 'shocked']]\n"
+    },
+    {
+        "input": "the takeout is great too since they give high quality tupperware as well .",
+        "output": "[['takeout', 'service general', 'positive', 'great']]\n"
+    },
+    {
+        "input": "you must have the crabmeat lasagna which is out of this world and the chocolate bread pudding for dessert .",
+        "output": "[['crabmeat lasagna', 'food quality', 'positive', 'out of this world']]\n"
+    },
+    {
+        "input": "its just a fun place to go , not a five star restaraunt .",
+        "output": "[['restaraunt', 'restaurant general', 'neutral', 'five star']]\n"
+    },
+    {
+        "input": "staff is very accomodating .",
+        "output": "[['staff', 'service general', 'positive', 'accomodating']]\n"
+    },
+    {
+        "input": "he served me an uni hand roll , which i never had before , and let me tell you ... it was heaven !",
+        "output": "[['uni hand roll', 'food quality', 'positive', 'heaven']]\n"
+    },
+    {
+        "input": "guacamole+shrimp appetizer was really great , we both had the filet , very good , did n't much like the frites that came with , but the filet was so good , neither of us cared .",
+        "output": "[['guacamole+shrimp appetizer', 'food quality', 'positive', 'great'], ['filet', 'food quality', 'positive', 'good'], ['frites', 'food quality', 'negative', \"did n't much like\"]]\n"
+    },
+    {
+        "input": "the food however , is what one might expect .",
+        "output": "[['food', 'food quality', 'negative', 'expect']]\n"
+    },
+    {
+        "input": "we had fun eating in there , we were there like around 3 a .m . in the morning !",
+        "output": "[['null', 'restaurant general', 'positive', 'had fun']]\n"
+    },
+    {
+        "input": "will prob . not return but it is a great dinning experience to try atleast once .",
+        "output": "[['null', 'restaurant general', 'negative', 'not return'], ['null', 'restaurant general', 'positive', 'great']]\n"
+    },
+    {
+        "input": "great sushi experience .",
+        "output": "[['sushi', 'food quality', 'positive', 'great']]\n"
+    },
+    {
+        "input": "great pizza and fantastic service .",
+        "output": "[['pizza', 'food quality', 'positive', 'great'], ['service', 'service general', 'positive', 'fantastic']]\n"
+    },
+    {
+        "input": "on our last visit , they skipped over our name on the list , leaving us waiting an extra hour for a table .",
+        "output": "[['null', 'service general', 'negative', 'waiting an extra hour']]\n"
+    },
+    {
+        "input": "have been dozens of times and never failed to enjoy the experience .",
+        "output": "[['null', 'restaurant general', 'positive', 'enjoy']]\n"
+    },
+    {
+        "input": "i 'm glad i was introduced to this place and this is a rare gem in ny .",
+        "output": "[['place', 'restaurant general', 'positive', 'glad']]\n"
+    },
+    {
+        "input": "easily the worst stir-fried squid i 've ever tasted .",
+        "output": "[['stir-fried squid', 'food quality', 'negative', 'worst']]\n"
+    },
+    {
+        "input": "with the theater 2 blocks away we had a delicious meal in a beautiful room .",
+        "output": "[['meal', 'food quality', 'positive', 'delicious'], ['room', 'ambience general', 'positive', 'beautiful'], ['null', 'location general', 'positive', '2 blocks away']]\n"
+    },
+    {
+        "input": "but nonetheless -- great spot , great food .",
+        "output": "[['spot', 'restaurant general', 'positive', 'great'], ['food', 'food quality', 'positive', 'great']]\n"
+    },
+    {
+        "input": "our visit their to say the least , was an unpleasant and costly experience !",
+        "output": "[['null', 'restaurant general', 'negative', 'unpleasant'], ['null', 'restaurant prices', 'negative', 'costly']]\n"
+    },
+    {
+        "input": "consistently good japanese tapas .",
+        "output": "[['japanese tapas', 'food quality', 'positive', 'good']]\n"
+    },
+    {
+        "input": "the food is prepared quickly and efficiently .",
+        "output": "[['null', 'service general', 'positive', 'quickly'], ['null', 'service general', 'positive', 'efficiently']]\n"
+    },
+    {
+        "input": "it is simply amazing .",
+        "output": "[['null', 'food quality', 'positive', 'amazing']]\n"
+    },
+    {
+        "input": "if you go , try the marinara/arrabiatta sauce , the mozzarella en carozza is mmmmmmmm ... .. everything is just delicious .",
+        "output": "[['marinara/arrabiatta sauce', 'food quality', 'positive', 'try'], ['marinara/arrabiatta sauce', 'food quality', 'positive', 'delicious'], ['mozzarella en carozza', 'food quality', 'positive', 'delicious'], ['null', 'food quality', 'positive', 'delicious']]\n"
+    },
+    {
+        "input": "the pizza was pretty good and huge .",
+        "output": "[['pizza', 'food quality', 'positive', 'good'], ['pizza', 'food style_options', 'positive', 'huge']]\n"
+    }
+]
