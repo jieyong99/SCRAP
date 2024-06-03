@@ -1,5 +1,7 @@
 # SCRAP
 
+Repo for paper [Self-Consistent Reasoning-based Aspect Sentiment Quad Prediction with Extract-Then-Assign Strategy](https://arxiv.org/abs/2403.00354)
+
 ## Quick Start
 
 First, transfer the data folder into the SCRAP folder.
