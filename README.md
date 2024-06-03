@@ -28,3 +28,16 @@ if you want to run T5-3B model:
 ```sh
 sh scripts/run_t5_3b.sh
 ```
+
+### Citation
+
+```sh
+@article{Kim2024SelfConsistentRA,
+  title={Self-Consistent Reasoning-based Aspect-Sentiment Quad Prediction with Extract-Then-Assign Strategy},
+  author={Jieyong Kim and Ryang Heo and Yongsik Seo and SeongKu Kang and Jinyoung Yeo and Dongha Lee},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2403.00354},
+  url={https://api.semanticscholar.org/CorpusID:268201860}
+}
+```
